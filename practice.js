@@ -6,7 +6,7 @@ export function setupPractice (element) {
   // du ska kunna förklara vad, hur varför PM
 
   // Samtliga delar finns förklarade/beskrivna https://webbutveckling.jensa.dev/tekniker/javascript/
-  varsAndTypes(element)
+  Jacob(element)
   operators(element)
   controlStructures(element)
   arraysAndObjects(element)
@@ -16,15 +16,18 @@ export function setupPractice (element) {
 
 // du kan använda kontrollstrukturer och variabler etc. i 
 // andra moment än där funktionen heter så såklart
-function varsAndTypes(element) {
+function Jacob(element) {
   // kod för att visa vad du lärt dig om variabler och typer
-  let varsAndTypes = 'varsAndTypes'
-  console.log(varsAndTypes, typeof(varsAndTypes))
+  let Name = 'Jacob'
+  let Age = `18`
+  console.log(Name, Age) 
+
 }
 
 function operators(element) {
   // kod för att visa vad du lärt dig om operatorer
   console.log('operators === ', 1 === 1)
+ 
 }
 
 function controlStructures(element) {
@@ -32,6 +35,7 @@ function controlStructures(element) {
   // if och loopar
   let controlStructures = 'controlStructures'
   console.log(controlStructures, controlStructures ? 'if' : 'loopar')
+  
 }
 
 function arraysAndObjects (element) {
