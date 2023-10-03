@@ -34,8 +34,9 @@ function controlStructures(element) {
   // kod för att visa vad du lärt dig om kontrollstrukturer
   // if och loopar
   let controlStructures = 'controlStructures'
-  console.log(controlStructures, controlStructures ? 'if' : 'loopar')
   
+  console.log(controlStructures, controlStructures ? 'if' : 'loopar')
+
 }
 
 function arraysAndObjects (element) {
@@ -53,4 +54,5 @@ function domManipulation (element) {
   // kod för att visa vad du lärt dig om DOM-manipulation
   // skapa element och lägga till och ta bort
   element.innerHTML = 'dom manipulation, ändra och lägg till element'
+  
 }
