@@ -20,13 +20,17 @@ function Jacob(element) {
   // kod för att visa vad du lärt dig om variabler och typer
   let Name = 'Jacob'
   let Age = `18`
+  let A = `1`
   console.log(Name, Age) 
 
 }
 
 function operators(element) {
   // kod för att visa vad du lärt dig om operatorer
-  console.log('operators === ', 1 === 1)
+  console.log('operators = ',9 + 9 === 18)
+  console.log('operators = ',2 + 2 === 18)
+
+  
  
 }
 
@@ -34,7 +38,7 @@ function controlStructures(element) {
   // kod för att visa vad du lärt dig om kontrollstrukturer
   // if och loopar
   let controlStructures = 'controlStructures'
-  
+
   console.log(controlStructures, controlStructures ? 'if' : 'loopar')
 
 }
