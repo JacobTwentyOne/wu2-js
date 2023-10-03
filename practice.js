@@ -20,17 +20,17 @@ function Jacob(element) {
   // kod för att visa vad du lärt dig om variabler och typer
   let Name = 'Jacob'
   let Age = `18`
-  let A = `1`
+  
   console.log(Name, Age) 
 
 }
 
 function operators(element) {
   // kod för att visa vad du lärt dig om operatorer
-  console.log('operators = ',9 + 9 === 18)
-  console.log('operators = ',2 + 2 === 18)
+  console.log('9+9=18 = ',9 + 9 === 18)
+  console.log('2+2=18 = ',2 + 2 === 18)
 
-  
+
  
 }
 
@@ -57,6 +57,8 @@ function domAndEvents (element) {
 function domManipulation (element) {
   // kod för att visa vad du lärt dig om DOM-manipulation
   // skapa element och lägga till och ta bort
-  element.innerHTML = 'dom manipulation, ändra och lägg till element'
+  element.innerHTML = 'Jacob was here' 
+  
+  
   
 }
